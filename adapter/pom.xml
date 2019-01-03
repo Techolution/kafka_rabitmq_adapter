@@ -45,12 +45,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.apache.qpid</groupId>
-			<artifactId>qpid-broker</artifactId>
-			<version>6.1.1</version>
-			<!--<scope>test</scope>-->
-		</dependency>
 	</dependencies>
 
 	<build>
