@@ -1,0 +1,9 @@
+kafka:
+  bootstrap-servers: localhost:9092
+  consumer:
+    group-id: yubao
+    auto-offset-reset: earliest
+    value-deserializer: org.springframework.kafka.support.serializer.StringDeserializer
+  producer:
+    value-serializer: org.springframework.kafka.support.serializer.StringSerializer
+
